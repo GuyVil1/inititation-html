@@ -1,0 +1,56 @@
+.boite{
+    border: 1px black solid;
+    margin-bottom: 1rem;
+}
+
+.fixe{
+    width: 300px;
+    height: 80px;
+    overflow: hidden;
+}
+
+.pourcentage{
+    width: 80%;
+    height: 30%;
+}
+
+
+/* La couleur de l'arrière plan */
+h2 {
+    background-color: black;
+    color: white;
+  }
+  /* Utiliser une image */
+  /* Par défaut l'image se répète et couvre toute la surface dsiponible. */
+  /* Si une couleur est utilisée, l'image sera supperposée. */
+  .etoiles {
+    height: 50px;
+    background-color: red;
+    background-image: url("https://aftercoaching.be/wp-content/uploads/2021/01/star.png");
+  }
+  /* Contrôle des répétitions */
+  .nerepetepas {
+    background-repeat: no-repeat;
+  }
+  .repetehorizontalement {
+    background-repeat: repeat-x;
+  }
+  /* Il est possible de définir la taille
+    en px, em, rem, % etc */
+  .tailledefinie {
+    background-size: 2.6rem;
+  }
+  .contenir {
+    background-size: contain;
+  }
+  /* Contrôler la position */
+  .milieu {
+    background-position: center center;
+  }
+  /* Raccourci */
+  .raccourci {
+    height: 50px;
+    background: center right 50px / contain red
+      url("https://aftercoaching.be/wp-content/uploads/2021/01/star.png")
+      no-repeat;
+  }
